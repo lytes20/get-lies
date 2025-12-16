@@ -19,7 +19,6 @@ function displayLie(lie, lieParagraph) {
 
 async function main() {
   const lies = await fetchLies();
-  console.log("lies", lies);
 
   const lieParagraph = document.getElementById("lie");
   const nextLieBtn = document.getElementById("nextLieBtn");

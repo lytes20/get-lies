@@ -29,7 +29,11 @@ main {
     opacity: 1;
   }
 }
-
+header {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
 footer {
   display: flex;
   width: 100%;
